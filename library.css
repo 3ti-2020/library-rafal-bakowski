@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top{
+    display: flex;
+    height: 30vh;
+    flex-basis: 100%;
+    background: lightcoral;
+    justify-content: center;
+    align-items: center;
+}
+
+.guziki{
+    height: 250vh;
+    flex-basis: 25%;
+    background: pink;
+}
+.right{
+    height: 250vh;
+    flex-basis: 25%;
+    background: plum;
+
+}
+
+.tab{
+    height: 250vh;
+    flex-basis: 50%;
+    background:lightcyan;
+}
+
+.tabelka{
+    border: 2px solid red;
+    background: lightsalmon;
+}
+
+.col{
+    background:lightyellow;
+
+}
+
+.col:hover{
+    background: grey;
+}
